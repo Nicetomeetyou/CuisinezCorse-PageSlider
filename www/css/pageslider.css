@@ -34,13 +34,3 @@
     -webkit-transition-duration: .25s;
     transition-duration: .25s;
 }
-
-
-@-webkit-keyframes fade {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0.25;
-    }
-}

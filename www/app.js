@@ -5,13 +5,24 @@ window.addEventListener('load', function () {
 // The dynamically built HTML pages. In a real-life app, In a real-life app, use Handlerbar.js, Mustache.js or another template engine
 var homePage =
     '<div>' +
-        '<div class="header"><h1>Page Slider</h1></div>' +
         '<div class="scroller">' +
-            '<ul class="list">' +
-                '<li><a href="#page1"><strong>Build Bot</strong></a></li>' +
-                '<li><a href="#page2"><strong>Medi Bot</strong></a></li>' +
-                '<li><a href="#page3"><strong>Ripple Bot</strong></a></li>' +
-            '</ul>' +
+           '<div class="tac trame-light">' +
+				'<div class="color-brown-title font-regular size20">Les recettes du mois</div>'+
+				'<div class="space10"></div>'+
+				'<div class="home-device">' +
+					'<div class="swiper-main">' +
+						'<div class="swiper-container swiper1">' +
+							'<div class="swiper-wrapper">' +
+								'<div class="swiper-slide"> <img class="width100" src="img/exemple.png"> </div>' +
+								'<div class="swiper-slide"> <img class="width100" src="img/exemple.png"> </div>' +
+								'<div class="swiper-slide"> <img class="width100" src="img/exemple.png"> </div>' +
+								'<div class="swiper-slide"> <img class="width100" src="img/exemple.png"> </div>' +
+							'</div>' +
+						'</div>' +
+					'</div>' +
+					'<div class="pagination pagination1"></div>' +
+				'</div>' +
+			'</div>' +
         '</div>' +
     '</div>';
 

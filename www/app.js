@@ -6,23 +6,107 @@ window.addEventListener('load', function () {
 var homePage =
     '<div>' +
         '<div class="scroller">' +
-           '<div class="tac trame-light">' +
+			
+           '<div class="tac trame-dark">' +
+				'<div class="space10"></div>'+
 				'<div class="color-brown-title font-regular size20">Les recettes du mois</div>'+
 				'<div class="space10"></div>'+
 				'<div class="home-device">' +
 					'<div class="swiper-main">' +
 						'<div class="swiper-container swiper1">' +
 							'<div class="swiper-wrapper">' +
-								'<div class="swiper-slide"> <img class="width100" src="img/exemple.png"> </div>' +
-								'<div class="swiper-slide"> <img class="width100" src="img/exemple.png"> </div>' +
-								'<div class="swiper-slide"> <img class="width100" src="img/exemple.png"> </div>' +
-								'<div class="swiper-slide"> <img class="width100" src="img/exemple.png"> </div>' +
+								'<div class="swiper-slide"> ' +
+									'<a class="" href="">' +
+										'<img class="width100" src="img/img-recette.jpg"> ' +
+										'<div class="space-before-text"> ' +
+											'<div class="color-brown-title font-regular size20 tal">Titre recette</div>' +
+											'<div class="color-grey-title font-regular size12 tal">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </div>' +
+										'</div>' +
+									'</a>' +
+								'</div>' +
+								'<div class="swiper-slide"> ' +
+									'<a class="" href="">' +
+										'<img class="width100" src="img/img-recette.jpg"> ' +
+										'<div class="space-before-text"> ' +
+											'<div class="color-brown-title font-regular size20 tal">Titre recette</div>' +
+											'<div class="color-grey-title font-regular size12 tal">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </div>' +
+										'</div>' +
+									'</a>' +
+								'</div>' +
+								'<div class="swiper-slide"> ' +
+									'<a class="" href="">' +
+										'<img class="width100" src="img/img-recette.jpg"> ' +
+										'<div class="space-before-text"> ' +
+											'<div class="color-brown-title font-regular size20 tal">Titre recette</div>' +
+											'<div class="color-grey-title font-regular size12 tal">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </div>' +
+										'</div>' +
+									'</a>' +
+								'</div>' +
+								'<div class="swiper-slide"> ' +
+									'<a class="" href="">' +
+										'<img class="width100" src="img/img-recette.jpg"> ' +
+										'<div class="space-before-text"> ' +
+											'<div class="color-brown-title font-regular size20 tal">Titre recette</div>' +
+											'<div class="color-grey-title font-regular size12 tal">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </div>' +
+										'</div>' +
+									'</a>' +
+								'</div>' +
+								'<div class="swiper-slide"> ' +
+									'<a class="" href="">' +
+										'<img class="width100" src="img/img-recette.jpg"> ' +
+										'<div class="space-before-text"> ' +
+											'<div class="color-brown-title font-regular size20 tal">Titre recette</div>' +
+											'<div class="color-grey-title font-regular size12 tal">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </div>' +
+										'</div>' +
+									'</a>' +
+								'</div>' +
 							'</div>' +
 						'</div>' +
 					'</div>' +
+					'<div class="space10"></div>'+
 					'<div class="pagination pagination1"></div>' +
 				'</div>' +
+				'<div class="space10"></div>'+
 			'</div>' +
+			'<div class="tac trame-light">' +
+				'<div class="space20"></div>'+
+				'<div class="color-brown-title font-regular size20">Les recettes les plus populaires</div>'+
+				'<div class="space10"></div>'+
+				'<div class="home-device">' +
+					'<div class="swiper-main">' +
+						'<div class="swiper-container swiper-loop">' +
+							'<div class="swiper-wrapper">' +
+								'<div class="swiper-slide"> ' +
+									'<a class="" href="">' +
+										'<img class="width100" src="img/exemple2.png"> ' +
+									'</a>' +
+								'</div>' +
+								'<div class="swiper-slide"> ' +
+									'<a class="" href="">' +
+										'<img class="width100" src="img/exemple2.png"> ' +
+									'</a>' +
+								'</div>' +
+								'<div class="swiper-slide"> ' +
+									'<a class="" href="">' +
+										'<img class="width100" src="img/exemple2.png"> ' +
+									'</a>' +
+								'</div>' +
+								'<div class="swiper-slide"> ' +
+									'<a class="" href="">' +
+										'<img class="width100" src="img/exemple2.png"> ' +
+									'</a>' +
+								'</div>' +
+								'<div class="swiper-slide"> ' +
+									'<a class="" href="">' +
+										'<img class="width100" src="img/exemple2.png"> ' +
+									'</a>' +
+								'</div>' +
+							'</div>' +
+						'</div>' +
+					'</div>' +
+				'</div>' +
+			'</div>' +
+			
         '</div>' +
     '</div>';
 

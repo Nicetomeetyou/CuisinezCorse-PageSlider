@@ -7,20 +7,20 @@ body{background-attachment:fixed;font-size:12px;height:100%;margin:0px;padding:0
 .fright{float:right;}
 .ma{margin:auto;}
 .tac{text-align:center;}
+.tal{text-align:left;}
 .color-brown-title{color:#8C5227;}
 .color-grey-title{color:#928B7F;}
 .size20{font-size:20px;text-shadow:0px 2px rgba(0,0,0,.1);}
 .size14{font-size:14px;text-shadow:0px 2px rgba(0,0,0,.1);}
+.size12{font-size:12px;text-shadow:0px 2px rgba(0,0,0,.1);}
 .font-regular{font-family:Titillium-regular!important;}
 .font-medium{font-family:Titillium-medium!important;}
 .space20{height:20px;}
 .space10{height:10px;}
-.trame-light{background:url(../img/trame-light.jpg) repeat 0 0;width:100%;height:100%;}
-.trame-dark{background:url(../img/trame-dark.jpg) repeat 0 0;width:100%;height:100%;}
-.carousel_paging2{border-radius:10px;background:#C4B4A6;width:10px;height:10px;display:inline-block;-webkit-box-shadow:0px 2px 0px rgba(255,255,255,0.8);box-shadow:0px 2px 0px rgba(255,255,255,0.8);}
-.carousel_paging2_selected{border-radius:10px;background:#8C5429;width:10px;height:10px;display:inline-block;-webkit-box-shadow:0px 2px 0px rgba(255,255,255,0.8);box-shadow:0px 2px 0px rgba(255,255,255,0.8);}
-.spacer{width:10px;float:left;}
-.carousel_content{-webkit-transform:translate3d(0,0,0);}
+.trame-light{background:url(../img/trame-light.jpg) repeat 0 0;width:100%;}
+.trame-dark{background:url(../img/trame-dark.jpg) repeat 0 0;width:100%;}
+.space-before-text{margin:10px 0 0 10px;}
+.spaceSlide{margin:0 20px;}
 .header-container-logo{margin:auto;max-width:170px;padding:12px 0 0 45px;}
 .title-recette-mois{padding:20px 0 5px 0;}
 .recette-header{width:100%;height:39px;background-color:#FFFFFF}
